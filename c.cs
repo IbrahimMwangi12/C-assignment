@@ -29,7 +29,7 @@ class Program
         Console.WriteLine($"Length of prefix substring: {prefixLength}");
     }
 
-    // Function for QUESTION ONE
+    // QUESTION ONE
     static int GetRandomNumber()
     {
         Random random = new Random();
@@ -46,14 +46,14 @@ class Program
             Console.WriteLine("The number is zero.");
     }
 
-    // Function for QUESTION TWO
+    // QUESTION TWO
     static void PrintLastDigit(int number)
     {
         int lastDigit = Math.Abs(number % 10);
         Console.WriteLine($"The last digit of the number is: {lastDigit}");
     }
 
-    // Function for QUESTION THREE
+    // QUESTION THREE
     static void SwapIntegers(ref int a, ref int b)
     {
         int temp = a;
@@ -61,13 +61,13 @@ class Program
         b = temp;
     }
 
-    // Function for QUESTION FOUR
+    // QUESTION FOUR
     static void PrintStringWithNewLine(string inputString)
     {
         Console.WriteLine(inputString);
     }
 
-    // Function for QUESTION FIVE
+    // QUESTION FIVE
     static void ReverseAndPrintString(string inputString)
     {
         char[] charArray = inputString.ToCharArray();
@@ -75,7 +75,7 @@ class Program
         Console.WriteLine(new string(charArray));
     }
 
-    // Function for QUESTION SIX
+    // QUESTION SIX
     static int GetPrefixLength(string str, string prefix)
     {
         int length = 0;
@@ -86,3 +86,6 @@ class Program
         return length;
     }
 }
+
+
+
